@@ -1,0 +1,96 @@
+.underline
+{
+   position: relative;
+}
+.underline::after{
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 90px;
+  width: 25%;
+  height: 4px;
+  background-color: red;
+}
+.card2 .btn
+{
+  position: absolute;
+  bottom: 90px;
+  right: 25px;
+  background-color: red;
+  border-radius:  50px;
+  
+  
+}
+.card3 .btn
+{
+  position: absolute;
+  bottom: 120px;
+  right: 25px;
+  
+  background-color: red;
+  border-radius:  50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card3 .btn
+  {
+    position: absolute;
+    bottom: 155px;
+    right: 25px;
+    
+    background-color: red;
+    border-radius:  50px;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .card3 .btn
+  {
+    position: absolute;
+    bottom: 210px;
+    right: 25px;
+    
+    background-color: red;
+    border-radius:  50px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .card3 .btn
+  {
+    position: absolute;
+    bottom: 132px;
+    right: 25px;
+    
+    background-color: red;
+    border-radius:  50px;
+  }
+}
+
+
+@media only screen and (max-width: 592px) {
+  .card3 .btn
+  {
+    position: absolute;
+    bottom: 130px;
+    right: 25px;
+    
+    background-color: red;
+    border-radius:  50px;
+  }
+}
+
+
+@media only screen and (max-width: 380px) {
+  .card3 .btn
+  {
+    position: absolute;
+    bottom: 180px;
+    right: 25px;
+    
+    background-color: red;
+    border-radius:  50px;
+  }
+}

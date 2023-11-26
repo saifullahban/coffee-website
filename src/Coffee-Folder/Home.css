@@ -1,0 +1,9 @@
+#home
+{
+    background-image: url('/public/coffee-pic/bg-hero.jpg');
+     background-size: cover;
+    height: 700px;
+}
+#home h2{
+    padding-top: 200px;
+}
